@@ -1,0 +1,51 @@
+.vendor-list {
+    max-width: 1200px; /* コンテンツの最大幅を設定 */
+    margin: 0 auto; /* 中央揃え */
+    padding: 20px; /* パディングを設定 */
+}
+
+.vendor {
+    border-bottom: 1px solid #ccc; /* 各出店者を区切る線を追加 */
+    padding-bottom: 20px; /* 区切り線との間隔 */
+    margin-bottom: 20px; /* 次の出店者との間隔 */
+}
+
+.vendor h3 {
+    color: #4CAF50; /* 出店者名の色を設定 */
+    margin: 10px 0; /* 上下のマージン */
+}
+
+.vendor p {
+    font-size: 1rem; /* 文章のフォントサイズを設定 */
+    line-height: 1.6; /* 行間を設定 */
+    color: #333; /* 文章の色 */
+    margin-bottom: 10px; /* 画像との間隔 */
+}
+
+.vendor img {
+    width: 100%; /* 画像の幅をセクションに合わせる */
+    max-width: 600px; /* 画像の最大幅を設定 */
+    height: auto; /* 画像の高さを自動調整 */
+    display: block; /* 画像をブロック要素として表示 */
+    margin: 0 auto; /* 画像を中央揃え */
+}
+
+nav ul {
+    list-style: none; /* リストのスタイルをなしに設定 */
+    padding-left: 0; /* 左のパディングを削除 */
+}
+
+nav ul li {
+    display: inline; /* ナビゲーションアイテムを横並びに表示 */
+    margin-right: 20px; /* アイテム間のマージン設定 */
+}
+
+nav a {
+    color: #4CAF50; /* リンクのテキスト色を設定 */
+    text-decoration: none; /* 下線をなしに */
+}
+
+nav a:hover {
+    text-decoration: underline; /* ホバー時に下線を表示 */
+}
+
